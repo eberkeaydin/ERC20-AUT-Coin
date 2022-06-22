@@ -24,13 +24,13 @@ pragma solidity >=0.7.0 <0.9.0;
 
 */
 
-contract AUTCoinERC20 {
+contract AUTHICoin {
 
     event Transfer(address indexed from, address indexed to, uint tokens); // Which must be triggered when tokens are transferred.
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens); // Which must be triggered when an account is approved to collect a certain amount of tokens
 
     string public constant name = "Authic Coin";
-    string public constant symbol = "AUT";
+    string public constant symbol = "AUTHIC";
     uint8 public constant decimals = 18;
 
     mapping(address => uint256) balances; // Mapping is used for define key-value relationships between "address" and "balance".
